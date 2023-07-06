@@ -20,6 +20,8 @@ while (theOrange === '') {
     - which user action will pass this condition?
   */
 
+    
+
   if (input === null) {
     continue;
   }

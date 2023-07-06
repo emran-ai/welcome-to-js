@@ -28,8 +28,11 @@ if (input !== null) {
 
 
 input = prompt('something longer than 4 characters:'); // distractor
-} else if { //distractor
-if (input <= 4) { // distractor
+if (input <= 4) {
+  alert('too short');
+}  else if (input.length < 4) {
+  console.log("incorrect");
+}
 
 
 // #todo

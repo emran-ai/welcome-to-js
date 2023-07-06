@@ -11,7 +11,15 @@ whenFormDataChanges('______', () => {
 
   // --- read user input ---
 
+  let firstname = readString('first')
+  console.log(firstname)
+  let lastName = readString('last')
+  console.log(lastName)
+
   // --- create a greeting ---
 
+  let greeting = 'hello' + firstname + ' ' + lastName
+
   // --- display the greeting ---
+displayString('greeting', greeting)
 });

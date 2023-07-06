@@ -33,7 +33,7 @@ console.log(temp === 'x');
 
 a = c; // distractor
 b === temp; // distractor
-let a === 'y'; // distractor
+a  === 'y'; // distractor
 
 
 // #todo

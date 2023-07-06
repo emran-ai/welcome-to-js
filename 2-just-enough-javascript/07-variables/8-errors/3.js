@@ -4,8 +4,8 @@
 
 // fix the error in this code
 
-let favoriteVegetable = 'potato';
-console.log(favoriteVegetable); // 'potato'
+let favoriteVegetable1 = 'potato';
+console.log(favoriteVegetable1); // 'potato'
 
 let favoriteVegetable = 'carrot';
 console.log(favoriteVegetable); // 'carrot'

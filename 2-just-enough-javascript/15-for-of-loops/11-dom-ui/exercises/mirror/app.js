@@ -10,7 +10,13 @@ whenFormDataChanges('___', () => {
 
   // --- read the user's input ---
 
+  let user = readString('to-mirror');
+
   // --- mirror the text ---
 
+  let text = readString('output');
+
   // --- display the result ---
+
+  displayString('output', text);
 });

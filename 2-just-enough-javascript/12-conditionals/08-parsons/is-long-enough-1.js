@@ -21,12 +21,14 @@ if (input === null) {
   alert('perfect');
 }
 
-// -------------------
 
-
-alert(too short!); // distractor
-} else if (input.length < 4) { //distractor
 if (input !== null) { // distractor
+  alert(':('); // distractor
+  } else if (input.length < 4) {
+    alert('too short!')
+  } else {
+    alert('correct')
+  }
 
 
 // #todo

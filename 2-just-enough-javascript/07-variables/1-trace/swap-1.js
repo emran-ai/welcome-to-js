@@ -13,9 +13,9 @@ let temp;
 */
 
 temp = a;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // y, x, a
 a = b;
-console.log(a, b, temp); // ?, ?, ?
+console.log(a, b, temp); // y,x,a
 b = temp;
 console.log(a, b, temp); // ?, ?, ?
 

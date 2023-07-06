@@ -2,8 +2,10 @@
 
 let language = 'JavaScript';
 
-// access the last character of the string
+
+// access the first character of the string
 //  then use strict equality to enter the conditional
-if (__) {
-  console.log(language);
+
+if (language[9] === ('t')) {
+    console.log(language[9]);
 }

@@ -23,12 +23,14 @@ alert(output);
 // begin distractors
 
 if (input.toUpperCase() === 'yes') { // distractor
+  output = 'you entered yes';
+} else if (output === '"' + input + '" is not "yes"') {
+  alert('you didnt entered yes' );
+} 
 
-} else if { // distractor
+ // distractor
 
-output === 'you entered "yes"'; // distractor
-
-output === '"' + input + '" is not "yes"'; // distractor
+ // distractor
 
 
 // #todo

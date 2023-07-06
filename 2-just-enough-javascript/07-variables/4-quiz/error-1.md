@@ -14,7 +14,7 @@ console.log(animal); // line 5
 let animal = 'cat'; // line 7
 ```
 
----
+console.log(animal);
 
 <details>
 <summary><strong>1. Which error will be thrown by this code?</strong></summary>

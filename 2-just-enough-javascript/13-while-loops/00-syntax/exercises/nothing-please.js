@@ -27,10 +27,10 @@ while (input === null) {
 
 
 
-let message = '';
+let message = 'hello';
 
 
-if (input === '') {
+if (input === 'hello') {
 
 
     message = 'thank you for nothing!';

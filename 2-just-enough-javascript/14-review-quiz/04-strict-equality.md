@@ -2,7 +2,7 @@
 
 Which of these comparisons will evaluate to `true`?
 
----
+
 
 <details>
 <summary><strong>A: </strong> <code>'hello' = 'hello'</code></summary>
@@ -18,7 +18,11 @@ to a variable, not to strings.
 
 </details>
 
----
+if ('hello' === 'hello') {
+  return true;
+}
+
+console.log('');
 
 <details>
 

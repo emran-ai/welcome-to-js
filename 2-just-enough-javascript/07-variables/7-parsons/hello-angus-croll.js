@@ -12,10 +12,10 @@
 
 */
 
-let first = 'angus';
-let last = 'croll';
+let firstName = 'angus';
+let lastName = 'croll';
 
-let greeting = 'hello ' + first + ' ' + last;
+let Greeting = 'hello ' + firstName + ' ' + lastName;
 
 greeting = greeting + '!';
 

@@ -2,7 +2,8 @@
 
 let language = 'JavaScript';
 
-// use only strict equality to enter the conditional
-if (__) {
-  console.log(language);
+// find the length of the string
+//  then use strict equality to enter the conditional
+if (language === 'JavaScript') {
+    console.log(language.length);
 }

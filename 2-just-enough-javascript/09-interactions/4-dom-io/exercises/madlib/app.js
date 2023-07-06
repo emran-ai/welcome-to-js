@@ -11,7 +11,19 @@ whenFormDataChanges('______', () => {
 
   // --- read user input ---
 
+  let Noun = readString('noun');
+  console.log(Noun);
+
+  let Verb = readString('verb');
+  console.log(Verb)
+
+  let Adjective = readString('adjective')
+
   // --- create a funny sentence ---
+  
+  const sentence = `The ${Adjective} ${Noun} ${Verb} happily.`;
 
   // --- display the sentence ---
+
+  displayString("funny-sentence",sentence)
 });

@@ -11,7 +11,16 @@ whenFormDataChanges('___', () => {
 
   // --- read user input ---
 
+  let Name = readString('fn');
+
+  let lastName = readString('ln')
+
   // --- create a message ---
 
+  let introduce = 'hello my ' + Name + lastName
+
+
   // --- display the message ---
+
+  displayString('greet-field', introduce)
 });

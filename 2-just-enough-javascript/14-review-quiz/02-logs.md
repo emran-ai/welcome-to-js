@@ -2,7 +2,7 @@
 
 How can you log `'hello'` to the console for developers?
 
----
+console.log('hello');
 
 <details>
 <summary><strong>A: </strong> <code>console('hello');</code></summary>
@@ -34,7 +34,7 @@ access one of the console functions you need to use `console.__`
 
 </details>
 
----
+console.log();
 
 <details>
 

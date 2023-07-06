@@ -11,12 +11,12 @@
 
 
 
-let userInput = prompt('please input something');
+let userInput1 = prompt('please input something');
 
 
-if (userInput === null) {
+if (userInput1 === null) {
   alert (':(');
-} else if (userInput === '') {
+} else if (userInput1 === '') {
   alert ('nothing!  why !!! ??? !!!');
 } else {
   alert ('you inputted: ' + userInput);
@@ -32,7 +32,8 @@ if (userInput = null) { // distractor
 
 } else if (userInput = '') { // distractor
 
-} else (userInput === '') { // distractor
+} else (userInput === '') 
+// distractor
 
 
 // #todo

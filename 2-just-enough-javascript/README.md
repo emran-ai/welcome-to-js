@@ -278,6 +278,14 @@ learn from.
 // :END WHILE
 
 // alert(input)
+
+let input = null;
+while (input === null ){
+  input = pareint(prompt('enter something'));
+  console.log("Please enter a value");
+
+}
+alert(input);
 ```
 
 </td>

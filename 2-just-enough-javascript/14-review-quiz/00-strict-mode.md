@@ -3,7 +3,7 @@
 What do you write at the top of a JavaScript file to tell the computer it should
 run in Strict Mode?
 
----
+'use strict';
 
 <details>
 <summary><strong>A: </strong> <code>Use Strict;</code></summary>

@@ -1,9 +1,10 @@
 'use strict';
 
+
 let language = 'JavaScript';
 
-// find the type of `language`
-//  then compare the type to enter the conditional
-if (__) {
-  console.log(language);
+// find the length of the string
+//  then use strict equality to enter the conditional
+if (language === 'JavaScript') {
+    console.log(typeof language);
 }

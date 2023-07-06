@@ -2,7 +2,9 @@
 
 Which of these are correct ways to write a comment?
 
----
+# this is a comment 
+
+
 
 <details>
 <summary><strong>A: </strong> <code>/* ...</code></summary>
